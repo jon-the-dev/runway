@@ -376,7 +376,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Microsoft Teams Notification
-        uses: skitionek/notify-microsoft-teams@v1.0.8
+        uses: skitionek/notify-microsoft-teams@v1.0.9
         if: always()
         with:
           webhook_url: ${{ secrets.MSTEAMS_WEBHOOK }}
